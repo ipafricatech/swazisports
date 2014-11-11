@@ -26,6 +26,14 @@ end
 
 gem 'jquery-rails'
 
+# Use unicorn as the app server
+gem 'unicorn'
+
+# Deploy with Capistrano
+gem 'capistrano', '~> 2.15.5'
+gem 'net-ssh', '2.7.0'
+
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
